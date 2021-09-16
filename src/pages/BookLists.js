@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { Link, NavLink } from "react-router-dom";
-import { Button, Checkbox, Icon, Label, Table } from "semantic-ui-react";
+import { Button, Checkbox, Icon, Table } from "semantic-ui-react";
 import BookService from "../services/bookService";
 
 export default function BookList() {
