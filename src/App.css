@@ -2,37 +2,94 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ui.main.container{
+  margin-top: 6em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.ui.login.container{
+  margin-top: 25em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ui.ui form.form{
+  text-align: left;
+}
+
+.select.select {
+  cursor: pointer;
+  word-wrap: break-word;
+  line-height: 1em;
+  white-space: normal;
+  outline: 0;
+  transform: rotateZ(0);
+  min-width: 14em;
+  min-height: 2.71428571em;
+  background: #fff;
+  display: inline-block;
+  padding: .78571429em 2.1em .78571429em 1em;
+  color: rgba(0,0,0,.87);
+  box-shadow: none;
+  border: 1px solid rgba(34,36,38,.15);
+  border-radius: .28571429rem;
+  transition: box-shadow .1s ease,width .1s ease;
+  width: "100%";
+}
+
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+ 
+.box {
+
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: 70%;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 25px;
+  padding: 40px;
+  border: 1px solid #999;
+  overflow: auto;
+}
+
+
+.buttonAdd {
   color: white;
+  padding: 10px 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50px;
+  cursor: pointer;
+  background-color: white; 
+  color: teal; 
+  border: 1px solid #073646;
+  font-Style: "oblique";
+  font-family: "Cursive"
 }
 
-.App-link {
-  color: #61dafb;
+.buttonDelete {
+  color: white;
+   
+  padding: 10px 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 50px;
+  cursor: pointer;
+  background-color: white; 
+  color: teal; 
+  border: 1px solid #073646;
+  font-Style: "oblique";
+  font-family: "Cursive"
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
