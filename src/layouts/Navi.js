@@ -20,7 +20,10 @@ export default function Navi() {
             </Dropdown>
 
             <Menu.Item>
-              <Button primary>Sign Up</Button>
+              <Button as={NavLink} to="/SignUp" secondary>Sign Up</Button>
+            </Menu.Item>
+            <Menu.Item>
+              <Button as={NavLink} to="/Homepage" primary>Sign In</Button>     
             </Menu.Item>
           </Menu.Menu>
         </Container>
